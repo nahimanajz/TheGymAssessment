@@ -1,0 +1,36 @@
+
+html, body {
+    margin: 0;
+    padding:4px;
+}
+/* margins */
+.m-left-128{
+ margin-left: 128px;
+}
+header{
+  
+    box-shadow: 0 3px 3px -2px #ccc;
+
+}
+.flex {
+    display: flex;
+}
+.flex-between{
+    justify-content: space-between;
+}
+.flex-around {
+    justify-content: space-around;
+}
+.logo { flex: 0.4;}
+.right{
+    flex:0.6;
+}
+/* sections  */
+.section-one {
+   background-image: url("../assests/land.jpg");
+   color:white;
+   min-height: 80vh;
+   height: auto;
+   object-fit: fill;
+}
+
