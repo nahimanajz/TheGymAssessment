@@ -142,7 +142,7 @@ input {
 }
 
 /* section 4 items */
-.item {
+.s4-item {
   height: 450px;
   object-fit: baseline;
   padding: 32px;
