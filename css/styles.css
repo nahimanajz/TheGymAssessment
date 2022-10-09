@@ -43,13 +43,25 @@ header{
    object-fit: fill;
    padding: 32px;
 }
-/* grid  */
+.secion-two {
+    background-color: #333;
+    height: 15vh;
+    padding: 32px;
+}
+/* grids  */
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-bottom: 64px;
 }
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 64px;
+}
+
 .grid-child {
    background-color: rgb(17,118, 89);
    height: 100px;
@@ -58,3 +70,14 @@ header{
    padding: 16px;
 }
 
+/* black container */
+.grid-3 > div {
+    max-height: 30px;
+    border: 4px solid #fff;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+    padding: 24px;
+    font-size: 18px;
+}
+input {outline: none; width: 100%; height: 100%; background-color: transparent;border:0; color: white;}
