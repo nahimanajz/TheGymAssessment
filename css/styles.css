@@ -156,6 +156,9 @@ input {
 .item-3 {
   background-image: url("../assests/itemThree.jpg");
 }
+.mobile{
+    display: none;
+}
 
 /* responsiveness  */
 @media (max-width: 780px) { 
@@ -167,5 +170,7 @@ input {
     }
     .mobile {
         display: block;
+        float: right;
+        align-self: right;
     }
  }
